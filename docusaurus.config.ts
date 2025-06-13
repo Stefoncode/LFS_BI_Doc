@@ -73,24 +73,30 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'LFS Design System for BI',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Logo',
+        src: 'img/logo-LG-Europe.jpg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'StartSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Getting Started',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'elementSidebar',
+          position: 'left',
+          label: 'Elements',
+        },
+/*         {to: '/blog', label: 'Blog', position: 'left'}, 
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
-        },
+        },*/
       ],
     },
     footer: {
