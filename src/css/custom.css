@@ -28,3 +28,38 @@
   --ifm-color-primary-lightest: #ad3c78;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.docMainContainer_TBSr .container {
+  background-color: var(--docusaurus-highlighted-code-line-bg); /* fond blanc */
+  background-image:
+    /* lignes verticales */
+    linear-gradient(to right, var(--ifm-color-primary) 1px, transparent 1px),
+    /* lignes horizontales */
+    linear-gradient(to bottom, var(--ifm-color-primary) 1px, transparent 1px);
+  background-size: 20px 20px; /* taille de chaque carré */
+}
+
+.docMainContainer_TBSr .container img {
+  /* Ombre portée discrète : décalage X 0px, Y 4px, flou 8px, étendue 0px */
+  /* et couleur noire à 20 % d’opacité */
+  /*box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.2);*/
+
+      filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
+
+  /* Pour un rendu plus doux, vous pouvez jouer sur le flou (8px) et l’opacité */
+  /* Par exemple : box-shadow: 0 6px 12px rgba(0,0,0,0.15); */
+}
+
+.breadcrumbs__link {
+    background: rgb(216 215 215);
+}
+
+.pagination-nav__link {
+    background: rgb(255, 255, 255);
+}
+
+.footer {
+    background: rgb(55, 15, 15);
+    padding: 5px;
+    color:var(--ifm-color-primary-light);
+}

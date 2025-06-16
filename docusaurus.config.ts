@@ -101,7 +101,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
+/*       links: [
         {
           title: 'Docs',
           items: [
@@ -141,8 +141,8 @@ const config: Config = {
             },
           ],
         },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      ], */
+      copyright: `Copyright © ${new Date().getFullYear()} LFS Design System for PowerBi.`,
     },
     prism: {
       theme: prismThemes.github,

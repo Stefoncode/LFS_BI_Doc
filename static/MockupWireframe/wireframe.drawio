@@ -1,0 +1,36 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5" pages="2">
+  <diagram name="Page-1" id="O4YwQVw-ilH7FtkBdYBK">
+    <mxGraphModel dx="2545" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lsci5fqb5nh0V0tmHFAp-1" value="" style="group;allowArrows=0;sketch=1;curveFitting=1;jiggle=2;resizeWidth=1;resizeHeight=1;autosize=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="210" width="420" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="t5QW3LMHPpabz5aEMMm8-7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.corner_round_rect;dx=11;whiteSpace=wrap;flipH=1;sketch=1;curveFitting=1;jiggle=2;resizeWidth=1;resizeHeight=1;autosize=1;" parent="Lsci5fqb5nh0V0tmHFAp-1" vertex="1">
+          <mxGeometry x="40" y="30" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="t5QW3LMHPpabz5aEMMm8-8" value="Label" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.corner_round_rect;dx=11;whiteSpace=wrap;flipH=1;fillColor=#545454;labelPosition=center;align=right;fontColor=#FFFFFF;spacingRight=10;fontSize=54;shadow=0;fillStyle=cross-hatch;textShadow=1;fontFamily=Comic Sans MS;sketch=1;curveFitting=1;jiggle=2;resizeWidth=1;resizeHeight=1;autosize=1;" parent="Lsci5fqb5nh0V0tmHFAp-1" vertex="1">
+          <mxGeometry x="40" y="30" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t5QW3LMHPpabz5aEMMm8-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=6;strokeColor=#FF0000;sketch=1;curveFitting=1;jiggle=2;resizeWidth=1;resizeHeight=1;autosize=1;" parent="Lsci5fqb5nh0V0tmHFAp-1" vertex="1">
+          <mxGeometry width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t5QW3LMHPpabz5aEMMm8-9" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;ICON&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=30;fontColor=#FF0000;sketch=1;curveFitting=1;jiggle=2;resizeWidth=1;resizeHeight=1;autosize=1;" parent="Lsci5fqb5nh0V0tmHFAp-1" vertex="1">
+          <mxGeometry x="50" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5QW3LMHPpabz5aEMMm8-11" value="XXXXX" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=72;fontFamily=Comic Sans MS;fontColor=#616161;sketch=1;curveFitting=1;jiggle=2;resizeWidth=1;resizeHeight=1;autosize=1;" parent="Lsci5fqb5nh0V0tmHFAp-1" vertex="1">
+          <mxGeometry x="210" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="g0CBVQl6-F26Hkz9w5nV" name="Page-2">
+    <mxGraphModel dx="1198" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
