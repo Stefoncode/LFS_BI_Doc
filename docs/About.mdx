@@ -1,0 +1,46 @@
+---
+sidebar_position: 1
+title: Présentation de l’Oxygen Design System
+---
+import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+# Mon Card
+
+
+  <div style={{
+    maxWidth: '300px',
+    border: '1px solid var(--ifm-grid-color)',
+    borderRadius: '4px',
+    overflow: 'hidden',
+    boxShadow: '0 0 10px rgba(0,0,0,0.1)'
+  }}>
+  <Link
+  to={useBaseUrl('/')}
+  style={{ textDecoration: 'none',maxWidth: '300px' /* pour enlever le soulignement */ }}
+>
+    <div style={{
+      backgroundColor: 'var(--ifm-color-primary)',
+      textAlign: 'center',
+      padding: '20px',
+      overflow: 'auto'
+    }}>
+      <img
+        src={useBaseUrl('img/about.svg')}
+        alt="Card Doctolib Oxygen"
+        width="64"
+        height="64"
+        style={{
+          float: 'left',           /* on flotte à gauche */
+          marginRight: '16px'      /* on espace le texte si besoin */
+        }}
+      />
+    </div>
+    <div style={{ padding: '16px',backgroundColor: 'var(--docusaurus-highlighted-code-line-bg)'}}>
+      <h3 style={{ margin: 0 }}>About</h3>
+      <p style={{ margin: '8px 0 0', color: 'var(--ifm-font-color-base)' }}>
+        Principles and Brand DNA of Doctolib's Oxygen Design System
+      </p>
+    </div>
+    </Link>
+  </div>
