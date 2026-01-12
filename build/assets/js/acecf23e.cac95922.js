@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklfs_bi_design_system=self.webpackChunklfs_bi_design_system||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
