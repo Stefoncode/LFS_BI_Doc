@@ -14,28 +14,37 @@
   --ifm-color-primary-lighter: #99356a;
   --ifm-color-primary-lightest: #ad3c78;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: #fff;
+  --ifm-grid-color: #f3f3f3;
+  --breadcrumbs-link-color: #d8d7d7;
+  --pagination-nav-link-color: #ffffff;
+  --ifm-container-width-xl:1600px;
+  --ifm-spacing-md:10px;
+  --ifm-background-color:rgba(255, 255, 255, 0.9);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #852e5c;
+  --ifm-color-primary: #bc799d;
   --ifm-color-primary-dark: #782953;
   --ifm-color-primary-darker: #71274e;
   --ifm-color-primary-darkest: #5d2040;
   --ifm-color-primary-light: #923365;
   --ifm-color-primary-lighter: #99356a;
   --ifm-color-primary-lightest: #ad3c78;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --docusaurus-highlighted-code-line-bg: rgb(18, 18, 18);
+  --ifm-grid-color: #2a2a2a;
+  --breadcrumbs-link-color: #373737;
+  --pagination-nav-link-color: #0d0d0d;
 }
 
 .docMainContainer_TBSr .container {
   background-color: var(--docusaurus-highlighted-code-line-bg); /* fond blanc */
   background-image:
     /* lignes verticales */
-    linear-gradient(to right, var(--ifm-color-primary) 1px, transparent 1px),
+    linear-gradient(to right, var(--ifm-grid-color) 1px, transparent 1px),
     /* lignes horizontales */
-    linear-gradient(to bottom, var(--ifm-color-primary) 1px, transparent 1px);
+    linear-gradient(to bottom, var(--ifm-grid-color) 1px, transparent 1px);
   background-size: 20px 20px; /* taille de chaque carré */
 }
 
@@ -51,15 +60,58 @@
 }
 
 .breadcrumbs__link {
-    background: rgb(216 215 215);
+    background: var(--breadcrumbs-link-color);
 }
 
 .pagination-nav__link {
-    background: rgb(255, 255, 255);
+    background: var(--pagination-nav-link-color);
 }
 
 .footer {
     background: rgb(55, 15, 15);
     padding: 5px;
     color:var(--ifm-color-primary-light);
+}
+
+/* src/css/custom.css */
+
+/* Assurer que la modale est fixe et couvre tout l'écran */
+.modal {
+    display: none;
+    position: fixed; /* Position fixe par rapport à la fenêtre */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000; /* Z-index très élevé pour être au-dessus de tout */
+    overflow: auto; /* Permet le défilement si le contenu est grand */
+    background-color: transparent; /* Pas de couleur de base */
+}
+
+/* Afficher la modale (l'effet "pop-up") */
+.modal.modal--show {
+    display: flex; /* Utiliser flex pour centrer le contenu */
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+}
+
+/* L'arrière-plan semi-transparent (l'overlay) */
+.modal__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur noire semi-transparente */
+}
+
+/* La boîte de contenu principale (la fenêtre) */
+.modal__box {
+    background: var(--ifm-background-color);  /*Couleur de fond du thème Docusaurus */
+    padding: var(--ifm-spacing-md);
+    border-radius: 5px; /* var(--ifm-border-radius); */
+    max-width: 80%;
+    z-index: 1001; /* Doit être au-dessus de l'overlay */
+    box-shadow: var(--ifm-global-shadow-lw);
+    position: relative;
 }
